@@ -1,0 +1,51 @@
+#heading {
+    color: rgba(42, 40, 40, 0.504);
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+  }
+  
+#gray-box {
+    background-color: rgba(175, 175, 175, 0.411);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  body {
+    background-image: url(https://ihypress.com/textures/marble4.jpg);
+    position: relative;
+    z-index: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88a6e189;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  li a:hover {
+    background-color: rgb(36, 36, 67);
+  }
+  
